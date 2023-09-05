@@ -157,7 +157,6 @@
     </dependencyManagement>
 
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -172,10 +171,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
-<!--                <configuration>-->
-<!--                    <mainClass>com.dazhou.dzojbackendmicroservice.DzojBackendMicroserviceApplication</mainClass>-->
-<!--                    <skip>true</skip>-->
-<!--                </configuration>-->
                 <configuration>
                     <classifier>exec</classifier>
                 </configuration>
@@ -188,8 +183,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
         </plugins>
     </build>
 
